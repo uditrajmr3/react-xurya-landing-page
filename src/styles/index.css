@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+  font-family: "Aeonik", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: #1e1e1e;
+  background-color: #f2f4f4;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Colors */
+:root {
+  --primary-color: #00d47e;
+  --secondary-color: #1e1e1e;
+  --gray-color: #8d959d;
+  --background-color: #f2f4f4;
+}
+
+/* Utility Classes */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-gray {
+  color: var(--gray-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-gray {
+  background-color: var(--gray-color);
+}
+
+.bg-background {
+  background-color: var(--background-color);
+}
