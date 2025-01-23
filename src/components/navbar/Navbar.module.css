@@ -4,7 +4,7 @@
   align-items: center;
   padding: 1rem 2rem;
   background-color: var(--background-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .navMenu {
@@ -16,13 +16,18 @@
 
 .navMenu li {
   margin-right: 2rem;
+}
+
+.navMenu li a {
   font-size: 0.875rem;
   font-weight: 500;
-  cursor: pointer;
+  color: var(--secondary-color);
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.navMenu li:hover {
+.navMenu li a.active,
+.navMenu li a:hover {
   color: var(--primary-color);
 }
 

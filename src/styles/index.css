@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   color: #1e1e1e;
-  background-color: #f2f4f4;
+  background-color: white;
 }
 
 /* Typography */
@@ -29,7 +29,7 @@ p {
   --primary-color: #00d47e;
   --secondary-color: #1e1e1e;
   --gray-color: #8d959d;
-  --background-color: #f2f4f4;
+  --background-color: white;
 }
 
 /* Utility Classes */
